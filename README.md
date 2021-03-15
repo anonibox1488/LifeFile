@@ -39,7 +39,7 @@ php artisan key:generate
 ```
 - Ejecujar migraciones y Seeder
 ```
-php artisan migrate -seed
+php artisan migrate --seed
 ```
 
 - Ya puedes ejecutar el servidor y probar el codigo. 
