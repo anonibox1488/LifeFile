@@ -51,6 +51,7 @@
 				</div>
 				<div class="card-body">
 					<p class="card-text">Upload file.</p>
+					<a href="{{url('/Employees.xlsx')}}">Download Sample .XLSX File</a>
 					<form method="POST" action="{{ url('bulk-employed')}}" enctype="multipart/form-data">
 						@csrf
 						<div class="row">
